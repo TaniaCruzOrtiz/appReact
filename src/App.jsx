@@ -5,7 +5,9 @@ import Astros from './Components/Astros.jsx'
 import About from './Components/About.jsx'
 import './App.css'
 
+
 function App() {
+    
 
     const linksData = [
         { name: 'Home', href: '/'},
@@ -15,6 +17,7 @@ function App() {
 
     return (
         <>
+        
             <Navbar header='Navbar' links={linksData} /> 
             <Routes>
                 <Route
@@ -27,10 +30,11 @@ function App() {
                 />
                 <Route 
                     element={<About />}
-                    path='/'
+                    path='/about'
                 />
                 
             </Routes>
+            
         </>
     )
 }

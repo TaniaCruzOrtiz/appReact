@@ -1,3 +1,5 @@
+
+
 .navbar--container {
     position: fixed;
     top: 0px;
@@ -8,7 +10,7 @@
     justify-content: space-between;
     padding: 0 20px;
     overflow: hidden;
-    background: linear-gradient(90deg, #4915a8 25%, #ad30db 100%);
+    background: linear-gradient(90deg, #62a9e4 25%, #d37ff1 100%);
 }
 
 .navbar--title {

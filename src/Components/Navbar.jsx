@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-const Navbar = ({ header, links }) => {
+const Navbar  = ({ header, links }) => {
 
     return (
-        <div className='navbar--container'>
+        <div id='barra' className='navbar--container'>
             <div className='navbar--title'>
                 <h1>{header}</h1>
             </div>
